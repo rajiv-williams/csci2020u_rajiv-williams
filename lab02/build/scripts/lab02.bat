@@ -67,7 +67,7 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\lab02.jar
+set CLASSPATH=%APP_HOME%\lib\lab02.jar;%APP_HOME%\lib\commons-csv-1.8.jar
 
 
 @rem Execute lab02
