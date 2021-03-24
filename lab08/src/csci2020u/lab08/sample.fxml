@@ -1,0 +1,38 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.*?>
+<?import fxmltableview.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.collections.*?>
+<?import csci2020u.lab08.StudentRecord?>
+<?import csci2020u.lab08.DataSource?>
+
+<AnchorPane fx:controller="csci2020u.lab08.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <TableView fx:id="table_view" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0"
+               AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0">
+        <columns>
+            <TableColumn fx:id="SID" text="SID">
+                <cellValueFactory>
+                    <PropertyValueFactory property="studentID"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Assignments">
+            </TableColumn>
+            <TableColumn text="Midterm">
+            </TableColumn>
+            <TableColumn text="Final Exam">
+            </TableColumn>
+            <TableColumn text="Final Mark">
+            </TableColumn>
+            <TableColumn text="Letter Grade">
+            </TableColumn>
+        </columns>
+    </TableView>
+</AnchorPane>
