@@ -1,0 +1,11 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane fx:controller="csci2020u.lab09.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <Canvas fx:id="canvas" width="500" height="500" />
+</AnchorPane>
